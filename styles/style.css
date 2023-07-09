@@ -64,6 +64,8 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .person {
@@ -72,6 +74,8 @@ body {
     padding-top: 105px;
     padding-left: 150px;
     margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 
 
@@ -82,7 +86,8 @@ body {
     padding-bottom: 18px;
 }
 
-.description, .list {
+.description,
+.list {
     color: #444343;
     font-size: 12px;
     font-weight: 400;
@@ -90,8 +95,70 @@ body {
     padding-bottom: 10px;
 }
 
-.year-failure{
+.year-failure {
     margin-right: 241px;
     margin-top: 160px;
     margin-bottom: 70px;
+}
+
+.skills-icon {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 160px;
+    background-color: #FFF;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skill-title {
+    color: #151414;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.skill-type {
+    color: #737272;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills {
+    margin-bottom: 70px;
+}
+
+.watch {
+    background-image: url(../images/watch.png), url(../images/gradient3.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 170px 172px;
+    padding: 50px 40px;
+
+}
+
+.watchs {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.call {
+    color: #F15B22;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #FFF;
+    padding: 16px 26px;
+    border:none;
 }
